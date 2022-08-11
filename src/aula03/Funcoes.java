@@ -17,6 +17,7 @@ public class Funcoes {
         int horas = Entrada.leiaInt("Horas");
         int minutos = Entrada.leiaInt("Minutos");
         
+        
         int totalMinutos = (horas * 60) + minutos;
         
         if(totalMinutos <= 60){
